@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.all {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    // background-image: url(../image/back-01.png);
+    // background-position: center center;
+    // background-size: 100% 100%;
+
+
+    .header {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        img {
+            display: block;
+            width: 100%;
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+
+
+        .logo2 {
+            display: none;
+        }
+
+        .contact {
+            position: fixed;
+            right: 0;
+            bottom: 1rem;
+            width: .6rem;
+            display: none;
+            z-index: 10;
+        }
+
+        .contactPhone {
+            position: absolute;
+            // top: 10.14rem;
+            // bottom: 1rem;
+            top: 0;
+            right: 0;
+            width: 1.2rem;
+            // box-shadow: 0 0 5px rgba(0, 0, 0, .3),
+            // 3px 3px 3px rgba(0, 0, 0, .2);
+        }
+    }
+
+    .logo-5 {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        height: .4rem;
+
+        img {
+            position: absolute;
+            width: 100%;
+            top: -1rem;
+        }
+
+        margin-bottom: .5rem;
+    }
+
+    .text {
+        h2 {
+            font-size: .5rem;
+            color: #3b6bdd;
+            text-align: center;
+            text-shadow: .03rem .03rem rgb(182, 171, 21);
+            font-weight: bold;
+            margin-top: .2rem;
+        }
+
+        p {
+            margin-top: .1rem;
+            font-size: .24rem;
+            line-height: .24rem;
+            text-align: center;
+            font-weight: lighter;
+            font-weight: 100;
+            color: gray;
+        }
+
+        img {
+            display: block;
+            width: 70%;
+            margin: -.4rem auto -.4rem;
+        }
+    }
+
+    .button-group {
+        width: 100%;
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            height: 0.85rem;
+            cursor: pointer;
+        }
+
+        .download {
+            // background: linear-gradient(to right, #85caff, #3b6bdd);
+            // background: linear-gradient(to bottom, #C3A384, #E0C3A3, #F2D7B9);
+            background: linear-gradient(135deg, #C3A384, #E0C3A3, #F2D7B9);
+            color: #fff;
+            border: none;
+            font-size: .35rem;
+            line-height: .7rem;
+            border-radius: .34rem;
+            text-align: center;
+            margin-top: 0.2rem;
+
+            img {
+                width: 40%;
+                margin-top: .15rem;
+            }
+        }
+
+        .ifcantdownload {
+            border: 2px solid rgb(64, 128, 255);
+            color: rgb(64, 128, 255);
+            font-size: .25rem;
+            line-height: .33rem;
+            border-radius: .34rem;
+            margin-top: 0.2rem;
+            font-weight: 100;
+        }
+
+        .app {
+            display: block;
+            width: 40%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+
+    .footer {
+        width: 100%;
+
+        img {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            margin-top: .1rem;
+            top: -.2rem;
+        }
+    }
+
+    .line-wrapper {
+        width: 80%;
+        padding-top: 20px;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            width: 225px;
+            margin: 0 auto;
+        }
+
+    }
+
+}
+
+
+.swiper-container {
+    /* 輪播長和寬 */
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -5px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: transparent;
+
+    img {
+        // 
+        height: 7.2rem;
+        width: 80%;
+    }
+}
+
+
+.swiper-container-horizontal .swiper-pagination-bullets {
+    bottom: -14px;
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        // background-image: url(../image/back-01.png);
+        // background-position: center center;
+        // background-size: 100% 100%;
+        font-size: 145px;
+    }
+
+    .all {
+        max-width: 1140px;
+        // background: none;
+
+        .header {
+            // .logo1 {
+            //     display: none;
+            // }
+
+            .logo2 {
+                display: block;
+                width: 30%;
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+
+            .contact {
+                display: block !important;
+                right: 10px;
+            }
+
+            .contactPhone {
+                position: fixed;
+                top: 3.5rem;
+                z-index: 20;
+                right: 0;
+                width: .6rem;
+            }
+        }
+
+        .logo-5 {
+            width: 70%;
+
+            img {
+                top: -.25rem;
+            }
+        }
+
+        #textimg {
+            position: relative;
+            top: .3rem;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .button-group {
+
+
+            button {
+                position: relative;
+                top: .3rem;
+                height: 0.4rem;
+                width: 50%;
+                width: 40%;
+            }
+
+            .download {
+                line-height: .16rem;
+                font-size: .15rem;
+
+                img {
+                    width: 40%;
+                    margin-top: 0;
+                }
+            }
+
+            .ifcantdownload {
+                line-height: .16rem;
+                font-size: .15rem;
+            }
+        }
+
+        .text {
+            position: relative;
+            top: .3rem;
+
+            p {
+                font-size: 0.12rem;
+                line-height: 0.12rem;
+            }
+        }
+
+        .footer {
+            position: relative;
+            top: .3rem;
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .line-wrapper {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+
+            img {
+                display: block;
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .swiper-container {
+        top: .2rem;
+    }
+
+    .swiper-container-horizontal .swiper-pagination-bullets {
+        bottom: -40px;
+    }
+
+    .swiper-slide img {
+        height: 4.15rem;
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width:1440px) {
+    html {
+        font-size: 160px;
+    }
+
+    .all {
+        max-width: 1200px;
+
+        .header .contact {
+            right: 0.5rem;
+            right: 10px;
+        }
+
+        .button-group {
+            .ifcantdownload {
+                border: 5px solid rgb(64, 128, 255);
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width:1600px) {
+    html {
+        font-size: 200px;
+
+    }
+
+    .all {
+        max-width: 1500px;
+
+        .header .contact {
+            right: 10px;
+        }
+
+        .button-group {
+            .ifcantdownload {
+                border: 5px solid rgb(64, 128, 255);
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .all {
+
+        .qq-wrapper {
+
+
+            .h2-wrapper {
+                display: flex;
+                flex-direction: column;
+                height: 157px;
+                justify-content: center;
+                margin-right: 10px;
+                color: #777;
+                width: 100%;
+
+                p {
+                    font-size: 26px;
+                    text-align: center;
+                }
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}
