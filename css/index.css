@@ -198,9 +198,6 @@
   .all .logo-5 {
     width: 70%;
   }
-  .all .logo-5 img {
-    top: -0.25rem;
-  }
   .all #textimg {
     position: relative;
     top: 0.3rem;
@@ -209,7 +206,6 @@
   }
   .all .button-group button {
     position: relative;
-    top: 0.3rem;
     height: 0.4rem;
     width: 50%;
     width: 40%;
@@ -249,15 +245,11 @@
   }
   .all .line-wrapper img {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 300px;
     margin: 0 auto;
   }
-  .swiper-container {
-    top: 0.2rem;
-  }
   .swiper-container-horizontal .swiper-pagination-bullets {
-    bottom: -40px;
+    bottom: -30px;
   }
   .swiper-slide img {
     height: 4.15rem;
